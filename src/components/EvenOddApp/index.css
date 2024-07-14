@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.count-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#ff6e7f, #bfe9ff);
+  height: 350px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #0f172a;
+  font-size: 32px;
+}
+
+.count-text {
+  color: #334155;
+  font-size: 24px;
+}
+
+button {
+  background-color: #fff;
+  color: #0f172a;
+  height: 30px;
+  width: 120px;
+  border: #0f172a solid 1px;
+  border-radius: 5px;
+}
+
+.count-desc {
+  color: #334155;
+  font-size: 18px;
+}
